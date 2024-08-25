@@ -22,7 +22,7 @@ function App() {
         throw new Error('Invalid JSON: "data" should be an array.');
       }
 
-      const response = await fetch('http://localhost:4000/post/bfhl', {
+      const response = await fetch('https://bajaj-finance-1-ojse.onrender.com/post/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
