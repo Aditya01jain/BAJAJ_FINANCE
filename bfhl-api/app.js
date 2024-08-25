@@ -32,7 +32,7 @@ app.post('/post/bfhl', (req, res) => {
     const response = {
         is_success: true,
         user_id: "aditya_jain_26012003",
-        email: "jain03adi@gmail.com",
+        email: "adityajain2021@vitbhopal.ac.in",
         roll_number: "21BCY10190", 
         numbers,
         alphabets,
