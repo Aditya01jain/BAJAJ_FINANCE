@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+}
+
+.input-container {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.select-container {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.selected-options {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.selected-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 5px 0;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+.selected-option span {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+.response-container {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 600px;
+  text-align: left;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.response-container,
+.error {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
